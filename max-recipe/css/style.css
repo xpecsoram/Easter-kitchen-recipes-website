@@ -1,0 +1,297 @@
+/* 
+	orange: #F29723
+	green: #CED233
+*/
+
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+html, body, *{
+	font-family: 'Raleway', sans-serif;
+}
+
+label {
+    font-weight: 500;
+}
+
+body{
+	margin-top: 70px;
+}
+
+body, p{
+	font-size: 17px;
+	font-weight: 400;
+	color: #222222;
+}
+
+p{
+	font-size: 18px;
+	line-height: 29px;
+}
+
+a{
+	color: #F29723;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #CED233;
+	text-decoration: none;
+}
+
+.btn{
+	font-size: 18px;
+}
+
+h1, .h1, h2, .h2, h3, .h3,
+h4, .h4, h5, .h5, h6, .h6 {
+	font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    color: #222222;
+}
+
+h1, .h1 {
+    font-size: 56px;
+    color: #fff;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+}
+
+.text-danger {
+    color: #ff1000 !important;
+}
+
+a, button, .btn{
+	transition: all 0.3s;
+}
+
+.section{
+	padding: 70px 0;
+}
+
+.navbar-default{
+	background: #fff;
+	border-color: #F29723;
+}
+
+.navbar{
+	border-radius: 0 !important;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #fff;
+}
+
+.navbar-brand {
+    height: 70px;
+    padding: 25px 15px;
+}
+
+.footer{
+	background-image: linear-gradient(to right, #F29723, #CED233);
+	color: #ffffff;
+	padding: 20px 0;
+}
+
+.orange{
+	color: #F29723;
+}
+
+.stick-top{
+	position: fixed;
+	top: 71px;
+	width: 100%;
+	z-index: 99999;
+	left: 0;
+}
+
+.text-white{
+	color: #fff;
+}
+
+img.logo {
+    position: relative;
+    top: -15px;
+    max-height: 50px;
+}
+
+#wrapper{
+	background: url('../images/background.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.overlay{
+	background: rgba(0, 0, 0,0.3);
+	padding: 100px 0;
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+}
+
+#wrapper .overlay h1{
+	text-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+}
+
+.cat-overlay{
+	background: rgba(0, 0, 0,0.3);
+	padding: 100px 0;
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+}
+
+.recipe-overlay{
+	background: rgba(0,0,0,0.5);
+	padding: 100px 0;
+}
+
+.recipe-overlay h1{
+	color: #fff;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary{
+	background-color: #CDD237;
+	background-image: linear-gradient(to right, #CDD237, #7D8A38);
+	border-color: #CDD237;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus{
+	background-color: #7D8A38;
+	background-image: linear-gradient(to right, #7D8A38, #7D8A38);
+	border-color: #7D8A38;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    padding: 15px 37px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.min-200{
+	min-width: 200px
+}
+
+.category-thumb,
+.category-thumb:hover,
+.category-thumb-orange,
+.category-thumb-orange:hover{
+    border: 1px solid #F29723;
+    display: block;
+    padding: 20px;
+    margin: 20px 0;
+    color: #F29723;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.category-thumb:hover{
+	background-color: rgba(223,107,54, 0.1);
+	transform: scale(1.05);
+}
+
+.category-thumb img,
+.category-thumb-orange img{
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+
+.category-thumb-orange:hover{
+	background-color: rgba(255, 255, 255, 0.9);
+	transform: scale(1.05);
+}
+
+.pagination>li>a, .pagination>li>span{
+	color: #F29723;
+	border: 1px solid #F29723;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+    color: #F29723;
+    background-color: rgba(223,107,54, 0.1);
+    border-color: #F29723;
+}
+
+.search-input {
+    height: 50px;
+    padding: 6px 15px;
+    font-size: 17px;
+}
+
+.search-btn {
+    height: 50px;
+    font-size: 17px;
+}
+
+blockquote{
+	margin: 0; 
+}
+
+
+.reviews p {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 7px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.rating-golden{
+	color: #F17704;
+}
+
+.rating-gray{
+	color: #D1D1D1;
+}
+
+.user-img{
+	width: 50px;
+	border-right: 100%;
+	margin-right: 15px;
+}
+
+@media (min-width: 768px){
+	.navbar-right {
+	    margin-top: 12px;
+	}
+	.cat-overlay h1{
+		font-size: 70px;
+	}
+	.recipe-overlay h1{
+		font-size: 56px;
+		line-height: 70px;
+	}
+	p.lead{
+	    font-size: 18px;
+	    line-height: 30px;
+	    color: #444;
+	}
+}
+
+/* -- css for small devices -- */
+@media (max-width: 768px){
+	.navbar-toggle {
+	    margin-top: 19px;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	    background-color: #fff;
+	}
+	.navbar-default .navbar-toggle {
+	    border-color: #F29723;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #F29723;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+	    text-align: center;
+	}
+	.min-200{
+		min-width: auto
+	}
+}
